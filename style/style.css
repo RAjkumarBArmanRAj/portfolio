@@ -61,6 +61,7 @@ nav-title {
     font-weight: 700;
     font-size: 85px;
     margin-bottom: 20px;
+    box-shadow: -16px;
 }
 
 .banner-sub-title {
@@ -107,6 +108,7 @@ main {
 .about-info-containr{
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 
 }
 .info-title{
@@ -118,4 +120,17 @@ main {
     font-size: 20px;
     font-weight: 700;
 
+}
+/* What i do style */
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+}
+.skill-title{
+
+}
+.skill-description{
+    
 }
