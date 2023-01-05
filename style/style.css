@@ -31,7 +31,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 200px 50px 200px;
+    margin: 0 200px 200px 200px;
 }
 
 nav ul {
@@ -87,9 +87,10 @@ section {
     margin-top: 130px;
 
 }
+
 /* About section style */
 .about {
-    
+
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -159,3 +160,35 @@ section {
 }
 
 /* Resume Style */
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
